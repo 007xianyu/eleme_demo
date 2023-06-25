@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="Iconify Explorer Font" horiz-adv-x="1000">
+    <font-face font-family="Iconify Explorer Font"
+      units-per-em="1000" ascent="1000"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="ph:circle-bold"
+      unicode="&#xE001;"
+      horiz-adv-x="1000" d="M500 921.875A421.875 421.875 0 1 1 921.875 500A422.34375 422.34375 0 0 1 500 921.875zM500 171.875A328.125 328.125 0 1 0 828.125 500A328.4765625000001 328.4765625000001 0 0 0 500 171.875z" />
+  </font>
+</defs>
+</svg>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>用户注册</title>
+</head>
+<body>
+<section >
+    <!--页眉部分-->
+    <header class="h-12  items-center bg-blue-500 border-t border-t-blue-500
+                    text-center justify-around  flex-shrink-0 fixed inset-x-0  top-0">
+        <div class="mt-2 h-7 inline-flex bg-blue-500 text-center text-white font-bold">用户注册</div>
+    </header>
+
+    <!--中间部分-->
+    <ul class="mt-14 ml-2 mr-2 space-y-2">
+        <li class="text-base text-gray-900">密码:</li>
+        <li class="h-6 w-full rounded-md border border-gray-500 text-start text-sm text-gray-500">输入密码</li>
+        <li class="text-base text-gray-900">确认密码:</li>
+        <li class="h-6 w-full rounded-md border border-gray-500 text-start text-sm text-gray-500">确认密码</li>
+        <li class="text-base text-gray-900">性别:</li>
+        <form class="space-x-6">
+        <label>
+            <input type="checkbox" checked> 男
+        </label>
+        <label>
+            <input type="checkbox" class="accent-pink-500" checked> 女
+        </label></form>
+
+        <li class="h-6 w-full border rounded-md bg-gray-100 items-center text-center justify-around border-gray-500 text-gray-900 text-sm ">注册</li>
+    </ul>
+
+
+
+
+    <!--页脚导航-->
+    <footer class="bg-gray-100 h-12 text-base text-gray-500
+             border-t border-t-gray-500 flex-shrink-0
+             fixed
+             inset-x-0
+             bottom-0
+             ">
+        <div class="mt-2 justify-around items-center text-center space-x-16">
+            <a>首页</a>
+            <a>发现</a>
+            <a>订单</a>
+            <a>我的</a>
+        </div>
+    </footer>
+</section>
+
+</body>
+</html>

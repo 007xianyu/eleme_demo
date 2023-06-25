@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>饿了么 我的订单</title>
+</head>
+<body>
+
+<section >
+    <!--页眉部分-->
+    <header class="h-12  items-center bg-blue-500 border-t border-t-blue-500
+                    text-center justify-around  flex-shrink-0 fixed inset-x-0  top-0">
+        <div class="mt-2 h-7 inline-flex bg-blue-500 text-center text-white font-bold">我的订单</div>
+    </header>
+    <!--主体部分-->
+    <main class="mt-10 flex-col">
+        <!--未支付订单信息-->
+        <ul class="h-flex ml-2 bg-white space-y-2">
+            <li class="h-1 w-full"></li>
+            <li class="mt-3 h-6 bg-white text-start text-gray-400 text-base">未支付订单信息:</li>
+            <!--万家饺子-->
+            <li class="mt-2 h-6 bg-white text-start text-black text-base">万家饺子(软件园E18店)
+            <a class="ml-24 text-base">￥49</a>
+            <button class="ml-1 h-5 inline-flex bg-orange-400 rounded-md text-sm text-white" onclick="location.href='payment.html'">去支付</button> </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">纯肉鲜肉(水饺) x 2
+                <a class="ml-52 text-sm">￥15</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">玉米鲜肉(水饺) x 1
+                <a class="ml-52 text-sm">￥16</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">配送费
+                <a class="ml-72 text-sm">￥3</a>
+            </li>
+
+            <!--小锅饭-->
+            <li class="mt-2 h-6 bg-white text-start text-black text-base">小锅饭豆腐馆(全运店)
+                <a class="ml-28 text-base">￥55</a>
+                <button class="ml-1 h-5 inline-flex bg-orange-400 rounded-md text-sm text-white" onclick="location.href='payment.html'">去支付</button> </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">纯肉鲜肉(水饺) x 2
+                <a class="ml-52 text-sm">￥15</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">玉米鲜肉(水饺) x 1
+                <a class="ml-52 text-sm">￥16</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">配送费
+                <a class="ml-72 text-sm">￥3</a>
+            </li>
+        </ul>
+
+        <div class="h-16 w-full "></div>
+
+        <!--已支付订单信息-->
+        <ul class="h-flex ml-2 bg-white space-y-2">
+            <li class="h-1 w-full"></li>
+            <li class="mt-3 h-6 bg-white text-start text-gray-400 text-base">已支付订单信息:</li>
+            <!--万家饺子-->
+            <li class="mt-2 h-6 bg-white text-start text-black text-base">万家饺子(软件园E18店)
+                <a class="ml-36 text-base">￥49</a></li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">纯肉鲜肉(水饺) x 2
+                <a class="ml-52 text-sm">￥15</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">玉米鲜肉(水饺) x 1
+                <a class="ml-52 text-sm">￥16</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">配送费
+                <a class="ml-72 text-sm">￥3</a>
+            </li>
+
+            <!--小锅饭-->
+            <li class="mt-2 h-6 bg-white text-start text-black text-base">小锅饭豆腐馆(全运店)
+                <a class="ml-40 text-base">￥55</a></li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">纯肉鲜肉(水饺) x 2
+                <a class="ml-52 text-sm">￥15</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">玉米鲜肉(水饺) x 1
+                <a class="ml-52 text-sm">￥16</a>
+            </li>
+            <li class="h-5 bg-white w-full text-start text-gray-500 text-sm">配送费
+                <a class="ml-72 text-sm">￥3</a>
+            </li>
+            <li class="h-52 w-full"></li>
+        </ul>
+
+
+    </main>
+    <!--页脚部分-->
+    <footer class="bg-gray-100 h-12 text-base text-gray-500
+             border-t border-t-gray-500 flex-shrink-0
+             fixed
+             inset-x-0
+             bottom-0
+             ">
+        <div class="mt-2 justify-around items-center text-center space-x-16">
+            <a>首页</a>
+            <a>发现</a>
+            <a>订单</a>
+            <a>我的</a>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

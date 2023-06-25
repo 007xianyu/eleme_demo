@@ -1,0 +1,19 @@
+{
+
+  "name": "tailwind_first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/css/style.css -o ./dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2"
+  }
+}
